@@ -1,0 +1,10 @@
+# Jasmine Carrion
+# jasmine.carrion73@myhunter.cuny.edu
+
+ADDI $s0, $zero, 10    
+ADDI $s1, $zero, 1     
+LOOP:                 
+SUB $s0, $s0, $s1      
+BEQ $s0, $zero, DONE   
+J LOOP                 
+DONE:             
